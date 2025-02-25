@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Travel Agency</title>
+<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="index.css"><!--https://www.w3schools.com/w3css/4/w3.css-->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TRAVEL</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PRICES</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="https://www.massport.com/logan-airport" target="_blank" class="w3-bar-item w3-button">FLIGHTS</a>
+        <a href="https://www.emirates.com/us/english/experience/cabin-features/first-class/" target="_blank" class="w3-bar-item w3-button">FIRST CLASS</a>
+        <a href="https://www.emirates.com/us/english/experience/cabin-features/economy-class/" target="_blank" class="w3-bar-item w3-button">ECONOMY</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">HOME</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TRAVEL</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PRICES</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+</div>
+
+
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  
+  
+  <!-- Automatic Slideshow Images -->
+
+  <div class="mySlides w3-display-container w3-center">
+    <img src="images/canada.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Canada</h3>
+      <p><b>Credit: "Unmissable Landscapes in Canada | Original Travel - Original Travel"</b></p>   
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="images/beach.jpeg" height="955" width="677" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Beach Sunset</h3>
+      <p><b>Credit: "Beautiful sunsets from around the world | Velvet Escape"</b></p>    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="images/cliffside.jpg" height="955" width="677" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Cliffside Landscape</h3>
+      <p><b>Credit- Shutterstock</b></p>    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="images/europe.jpeg" height="955" width="677" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Europe</h3>
+      <p><b>Credit-Shutterstock</b></p>    
+    </div>
+  </div>
+
+  
+  <!-- The Band Section -->
+
+
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">TRAVEL</h2>
+    <p class="w3-opacity"><i>Our Company</i></p>
+    <p class="w3-justify">Our travel company is of the utmost quality, with all of your needs being met and exceeded, with a 99% customer satisfaction rate and a money back guarantee.
+      Flights, Hotels, and bookings are all covered by us, you just need the money!
+    </p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p>Fly First-Class!</p>
+        <img src="images/airport.png" class="w3-round w3-margin-bottom" alt="Random Name" width="200px" height="300px" style="width:100%">
+      </div>
+      <div class="w3-third">
+        <p>Relax!</p>
+        <img src="images/hotel.png" class="w3-round w3-margin-bottom" alt="Random Name" width="200px" height="300px" style="width:100%">
+      </div>
+      <div class="w3-third">
+        <p>Sightsee!</p>
+        <img src="images/sightseeing.png" class="w3-round" alt="Random Name" width="200px" height="300px" style="width:100%">
+      </div>
+    </div>
+  </div>
+
+ 
+  <!-- The Tour Section -->
+
+
+  <div class="w3-black" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">TRAVEL/BOOKING</h2>
+      <p class="w3-opacity w3-center"><i>Remember to book an appointment!</i></p><br>
+
+      <ul class="w3-ul w3-border w3-white w3-text-grey">
+        <li class="w3-padding">September <span class="w3-tag w3-red w3-margin-left">SALE ON MEXICO</span></li>
+        <li class="w3-padding">October <span class="w3-tag w3-red w3-margin-left">SALE ON BRAZIL</span></li>
+        <li class="w3-padding">November <span class="w3-badge w3-right w3-margin-right">3</span></li>
+      </ul>
+
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <img src="images/brazil.jpg" border:5px solid #ccc; padding:3px; margin:5px; alt="Rio De Janeiro" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <!--Add Green,Yellow, White, Blue text to this for BRazil and eyecatchiness-->
+            <!--https://coolors.co/e6c509-beab21-299a39-059340-ddba14, https://coolors.co/029340-f7c80b-302681-dcdae8-10953d-beab21-->
+            <p><b>
+              <font color="#e6c509">R</font>
+              <font color="#beab21">i</font>
+              <font color="#299a39">o</font>
+              <font color="#059340">,</font>
+              <font color="#029340">B</font>
+              <font color="#f7c80b">r</font>
+              <font color="#302681">a</font>
+              <font color="#dcdae8">z</font>
+              <font color="#10953d">i</font>
+              <font color="#beab21">l</font>
+            </b></p>
+            <p class="w3-opacity">Starting at $1500</p>
+            <p>Rio De Janeiro, Brazil, is one of our most visited and favorite destinations. The people are kind to newcomers, and welcome Americans with open arms.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="images/paris.jpg" border:5px solid #ccc; padding:3px; margin:5px; alt="Paris" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <!--Same thing as brazil. https://coolors.co/d74e5b-002654-ce1126-fefefe-586581-->
+            <p><b>
+              <font color="#d74e5b">P</font>
+              <font color="#002654">a</font>
+              <font color="#ce1126">r</font>
+              <font color>i</font>
+              <font color="#586581">s</font>
+              <font color="#d74e5b">,</font>
+              <font color="#002654">F</font>
+              <font color="#ce1126">r</font>
+              <font color="#d74e5b">a</font>
+              <font color="#586581">n</font>
+              <font color="#002654">c</font>
+              <font color="#ce1126">e</font>
+             </b></p>
+            <p class="w3-opacity">ON SALE FOR $2500</p>
+            <p>A beautiful city filled with many landmarks such as the Arc de Triumph, paintings like the Mona Lisa, and, of course, the Eiffel Tower.
+              A great city for Americans and families.
+            </p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="images/kyoto.jpg" border:5px solid #ccc; padding:3px; margin:5px; alt="Bahamas" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <!--Same thing again. ##F2F3F4 and #FF0000-->
+            <p><b>
+              <font color="#ff7f7f">K</font>
+              <font color="#f2f2f2">y</font>
+              <font color="#ff7f7f">o</font>
+              <font color="#f2f2f2">t</font>
+              <font color="#ff7f7f">o</font>
+              <font color="#f2f2f2">,</font>
+              <font color="#ff7f7f">J</font>
+              <font color="#f2f2f2">a</font>
+              <font color="#ff7f7f">p</font>
+              <font color="#f2f2f2">a</font>
+              <font color="#ff7f7f">n</font>
+            </b></p>
+            <p class="w3-opacity">Starting at $3000</p>
+            <p>Kyoto, Japan, is a beautiful city filled with people who enjoy food, cats, dogs, and tourists. With great food, people, and help, its everything
+              a young tourist might want.  </p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ticket Model -->
+
+<!--(hypothetically) to sign up/register/buy a vacation-->
+  <div id="ticketModal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('ticketModal').style.display='none'" 
+       class="w3-button w3-teal w3-xlarge w3-display-topright"></span>
+        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tickets</h2>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="How many?">
+        <p><label><i class="fa fa-user"></i> Send To</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Enter email">
+        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  
+  <!-- The Contact Section -->
+<!--Questions/Contacts-->
+
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i>For any notes and/or questions on booking</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Boston, MA, US<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: <br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: <br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND COMMENT</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Image of location/map -->
+
+
+<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+
+<!-- Footer -->
+
+
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">Tim D, WHS Web Design</p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
